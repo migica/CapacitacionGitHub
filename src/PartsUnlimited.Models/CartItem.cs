@@ -3,7 +3,7 @@
 
 using System;
 using System.ComponentModel.DataAnnotations;
-
+Console.log("hello");
 namespace PartsUnlimited.Models
 {
     public class CartItem
