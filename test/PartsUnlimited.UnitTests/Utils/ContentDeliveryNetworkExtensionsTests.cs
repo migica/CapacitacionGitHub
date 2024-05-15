@@ -28,7 +28,7 @@ namespace PartsUnlimited.Utils
             Assert.Throws<ArgumentOutOfRangeException>(() => _myHtmlHelper.Image("", "something"));
             Assert.Throws<ArgumentOutOfRangeException>(() => _myHtmlHelper.Image(" ", "something"));
         }
-
+        //clear
         [Fact]
         public void AltTagDisplayed()
         {
