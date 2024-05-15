@@ -12,7 +12,9 @@ using System.Linq;
 using Xunit;
 using System.Xml;
 using System.Text.Encodings.Web;
+
 //test
+
 namespace PartsUnlimited.Utils
 {
     public class ContentDeliveryNetworkExtensionsTests
@@ -28,7 +30,7 @@ namespace PartsUnlimited.Utils
             Assert.Throws<ArgumentOutOfRangeException>(() => _myHtmlHelper.Image("", "something"));
             Assert.Throws<ArgumentOutOfRangeException>(() => _myHtmlHelper.Image(" ", "something"));
         }
-
+        //clear
         [Fact]
         public void AltTagDisplayed()
         {
