@@ -6,7 +6,11 @@ using NSubstitute;
 using System.Collections.Generic;
 using System.Linq;
 using Xunit;
+<<<<<<< developer
 //mi cambio
+=======
+//cero
+>>>>>>> master
 namespace PartsUnlimited.Utils
 {
     public class ConfigurationExtensionsTests

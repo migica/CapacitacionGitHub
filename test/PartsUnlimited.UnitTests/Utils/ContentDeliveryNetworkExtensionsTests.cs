@@ -12,10 +12,16 @@ using System.Linq;
 using Xunit;
 using System.Xml;
 using System.Text.Encodings.Web;
+<<<<<<< developer
 //xx
 //Nuevo CAmbio A
 
 //Cambio rama nueva
+=======
+
+//test
+
+>>>>>>> master
 namespace PartsUnlimited.Utils
 {
     public class ContentDeliveryNetworkExtensionsTests
