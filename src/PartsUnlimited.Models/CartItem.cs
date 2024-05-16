@@ -7,6 +7,7 @@ Console.log("hello");
 namespace PartsUnlimited.Models
 {
     //Cambio2
+    //Cambio con otro merge
     public class CartItem
     {
         [Key]
