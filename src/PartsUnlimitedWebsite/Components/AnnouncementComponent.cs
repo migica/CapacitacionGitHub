@@ -13,7 +13,9 @@ namespace PartsUnlimited.Components
     [ViewComponent(Name = "Announcement")]
     public class AnnouncementComponent : ViewComponent
     {
-        private readonly IPartsUnlimitedContext _db;
+     //cambio 2
+     
+     private readonly IPartsUnlimitedContext _db;
         private readonly IMemoryCache _cache;
 
         public AnnouncementComponent(IPartsUnlimitedContext context, IMemoryCache memoryCache)
